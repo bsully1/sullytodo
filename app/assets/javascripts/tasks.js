@@ -34,7 +34,7 @@ $(function() {
       var liHtml = taskHtml(data);
       var $li = $("#listItem-" + data.id);
       $li.replaceWith(liHtml);
-      $('.toggle').click(toggleTask);
+      $('.toggle').change(toggleTask);
       } );
     }
 
